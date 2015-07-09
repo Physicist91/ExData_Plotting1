@@ -1,4 +1,4 @@
-#Note
+##Note
 The file household_power_consumption.txt is too large to be included in this repository. This repository only contains the four R scripts for generating the plots and the four plots themselves.
 
 ## Introduction
