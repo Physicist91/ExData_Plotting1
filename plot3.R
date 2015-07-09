@@ -1,4 +1,5 @@
-#Reading data
+#Reading data, assuming the file household_power_consumption.txt is in the
+#working directory
 
 File <- file("household_power_consumption.txt")
 colNames <- unlist(read.table("household_power_consumption.txt", nrows = 1, sep = ";"))

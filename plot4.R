@@ -1,4 +1,6 @@
-#Reading data
+#Reading data, assuming that the file household_power_consumption.txt is
+#in the working directory.
+
 File <- file("household_power_consumption.txt")
 colNames <- unlist(read.table("household_power_consumption.txt", nrows = 1, sep = ";"))
 data <- read.table(text = grep("^[1,2]/2/2007", readLines(File), value = TRUE), col.names = colNames, sep = ";", header = TRUE)
